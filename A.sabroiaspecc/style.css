@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+   
+}
+#overlay{
+        position: fixed; /* Sit on top of the page content */
+        top: 0;
+        pointer-events:none;
+        background-color: rgba(245, 23, 23, 0); /* Black background with opacity */
+        
+}
+
+div{
+    color: black;
+}
+.container{
+    background-color: black;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(0.5rem + 0.45vw);
+    color: #fff;
+    margin-bottom: 10px;
+}
+header .container input{
+    max-width: 40px;
+    min-width: 30px;
+    background-color: transparent;
+    color: transparent;
+    position: fixed;
+    top: 20px;
+}
+.container-values{
+    float: right;
+    background-color: transparent;
+    color: transparent;
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    color: white;
+    filter: invert(1);
+}
+
+
